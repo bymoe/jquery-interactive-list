@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+
+}
+html {
+    height:100vh;
+    /* background:#ef5350; */
+    background: linear-gradient(to left, #2b5876 , #4e4376);
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+
+}
+#people {
+    height:400px;
+    margin: 50px auto;
+    text-transform: uppercase;
+
+
+}
+#people h2 {
+    margin-bottom:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size:3em;
+    font-weight: 900;
+    color:#fff;
+}
+#people input {
+    width: 200px;
+    height: 50px;
+    font-weight: 400;
+    border: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-left:10px;
+    font-size:1.3em;
+}
+#people button {
+    width: 80px;
+    height: 50px;
+    font-weight: 600;
+    background:#FAFAFA;
+    color:#2E282A;
+    outline: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size:1.3em;
+    transition: all 0.33s ease;
+}
+#people button:hover{
+    background:#2E282A;
+    color:#FAFAFA;
+    cursor: pointer;
+}
+input:focus::-webkit-input-placeholder {
+    opacity:0
+}
+ul {
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:25px;
+}
+ul li{
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-transform: none;
+    text-align: center;
+    height:30px;
+    font-weight: 600;
+    margin: 0 5px 12px 0px;
+    background: #fff; color: #2E282A;
+    outline:none;
+    transition: all 0.5s ease;
+}
+li i{
+    width:20px;
+    height: 20px;
+    float: right;
+    font-style: normal;
+    text-transform: lowercase;
+    position: relative; right:10px;
+    background: #2E282A;
+    color:#FAFAFA;
+    font-size: 12px;
+    border-radius: 999px;
+    transition: all 0.33s ease;
+}
+li i:hover{
+    cursor: pointer;
+    background: #E6AF2E;
+}
+li p{
+    outline: none;
+    margin:0; padding: 0;
+    display: inline-block;
+
+}
+li:hover{
+    cursor: pointer;
+}
+li i span{
+    position: relative;
+   top:2px;
+}
+
+#pos{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size:10px;
+    opacity:0.7;
+    position: absolute;
+    top:80%;
+}
+#pos p {
+    margin: 0;
+}
+#pos a {
+    text-decoration: none;
+    color:#fff;
+}
+
+
+
+
+
+
+
