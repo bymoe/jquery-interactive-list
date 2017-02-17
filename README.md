@@ -1,4 +1,4 @@
-# hover-styles
-Hover styles, Inspired by the web.
+# jquery-interactive-list
+Interactive List, Modular javascript way.
 [Live demo]
-[Live demo]: <https://imsolitude.github.io/hover-styles>
+[Live demo]: <https://imsolitude.github.io/jquery-interactive-list>
